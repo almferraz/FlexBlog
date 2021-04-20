@@ -15,18 +15,18 @@
 <body>
 
   <div class="superinfo-bg">
-    <div class="superinfo"></div>
-    <p>Seg / Sex - 08:00 às 18:00</p>
-    <a href="tel:+5513981949592">+55 13 98194-9592</a>
-    <p>Rua Santana, 841 B. Agenor de Campos - Mongaguá S.P.</p>
-  </div>
+    <div class="superinfo">
+      <p>Seg / Sex - 08:00 às 18:00</p>
+      <a href="tel:+5513981949592">+55 13 98194-9592</a>
+      <p>Rua Santana, 841 B. Agenor de Campos - Mongaguá S.P.</p>
+    </div>
   </div>
   <header class="menu-bg">
     <div class="menu">
       <div class="menu-logo">
         <a href="#">FlexBlog</a>
       </div>
-      <nav>
+      <nav class="">
         <ul>
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#produtos">Produtos</a></li>
@@ -121,10 +121,7 @@
   </section>
 
   <section class="qualidade" id="qualidade">
-    <div class="qualidade-item">
-      <h2>Inteligente</h2>
-      <p>O que temos que ter sempre em mente é que a determinação clara e objetiva afeta positivamente a correta previsão</p>
-    </div>
+
     <div class="qualidade-item">
       <h2>Inteligente</h2>
       <p>O que temos que ter sempre em mente é que a determinação clara e objetiva afeta positivamente a correta previsão</p>
@@ -156,12 +153,14 @@
       <h1>NewsLetter</h1>
       <p>assine e fique por dentro das novidades</p>
     </div>
-    <input type="text" placeholder="Seu e-mail">
-    <button type="submit">Assinar</button>
+    <form action="#" class="newsletter-form">
+      <input type="mail" placeholder="Seu e-mail" required>
+      <button type="submit">Assinar</button>
+    </form>
   </section>
 
   <footer class="footer">
-    <p>FlexBlog Copy Todos os doreitos reservados</p>
+    <p>FlexBlog Copy Todos os direitos reservados</p>
   </footer>
 
 </body>
